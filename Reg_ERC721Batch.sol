@@ -6,12 +6,12 @@
 
 pragma solidity 0.8.17;
 
-import "./interfaces/IERC721Errors.sol";
-import "./interfaces/IERC165.sol";
-import "./interfaces/IERC721.sol";
-import "./interfaces/IERC721Enumerable.sol";
-import "./interfaces/IERC721Metadata.sol";
-import "./interfaces/IERC721Receiver.sol";
+import "Errors/IERC721Errors.sol";
+import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol";
+import "@openzeppelin/contracts/contracts/token/ERC721/extensions/IERC721Metadata.sol ";
+import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 
 /**
  * @dev Required interface of an ERC721 compliant contract.
